@@ -26,7 +26,11 @@
 \newcommand{\ts}{\textsuperscript}
 \newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
 
-\usepackage[backend=biber]{biblatex}
+% Turns off page numbering.
+\pagenumbering{gobble}
+
+\usepackage[backend=biber,style=numeric,sorting=none]{biblatex}
+% \usepackage[backend=biber]{biblatex}
 \addbibresource{references/references.bib} % note the .bib is required
 
 \title{Research Problem}
