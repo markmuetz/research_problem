@@ -1,0 +1,5 @@
+DEVELOPMENT OF A EUROPEAN MULTIMODEL ENSEMBLE SYSTEM FOR SEASONAL-TO-INTERANNUAL PREDICTION (DEMETER)
+Predictability and Information Theory Part I: Measures of Predictability
+Predictability and Information Theory Part II: Imperfect Forecasts
+Model Fidelity versus Skill in Seasonal Forecasting
+Link between statistical equilibrium fidelity and forecasting skill for complex systems with model error

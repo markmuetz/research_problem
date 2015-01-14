@@ -1,0 +1,49 @@
+\documentclass[pdftex,12pt,a4paper]{article}
+
+% Some useful packages.
+\usepackage{amsmath}
+\usepackage{siunitx}
+\usepackage{graphicx}
+\usepackage{verbatim}
+\usepackage{mhchem}
+\usepackage{textcomp}
+\usepackage{setspace}
+
+% Reduces margins substantially.
+\usepackage{geometry}
+\newgeometry{margin=2.5cm}
+
+% Allows headers and footers.
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+% Get rid of annoying line under header.
+\renewcommand{\headrulewidth}{0pt}
+
+\lhead{}
+\chead{}
+\rhead{}
+
+\newcommand{\ts}{\textsuperscript}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+\usepackage[backend=biber]{biblatex}
+\addbibresource{references/references.bib} % note the .bib is required
+
+\title{Research Problem}
+\author{Mark Muetzelfeldt - UCL Department of Geography}
+
+\date{16 January, 2015}
+
+\begin{document}
+
+\section*{Research Problem}
+
+% Should be around 500 words.
+% 20\ts{th} Century Reanalysis Project
+% \SI{850}{hPa}
+Predictability is itself predictable \parencite{palmer2004development}. However, some things are
+more predictable than others \parencite{delsole2005predictability}. 
+
+\printbibliography[title={References}]
+
+\end{document}
