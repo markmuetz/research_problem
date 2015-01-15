@@ -3,3 +3,7 @@ Predictability and Information Theory Part I: Measures of Predictability
 Predictability and Information Theory Part II: Imperfect Forecasts
 Model Fidelity versus Skill in Seasonal Forecasting
 Link between statistical equilibrium fidelity and forecasting skill for complex systems with model error
+Baroclinic waves in an air-filled thermally driven rotating annulus
+Benefits of increased resolution in the ECMWF ensemble system and comparison with poor-man’s ensembles
+The benefit of high-resolution operational weather forecasts for flash flood warning
+Hurricane-type vortices in a general circulation model

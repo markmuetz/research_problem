@@ -1,13 +1,13 @@
-\documentclass[pdftex,12pt,a4paper]{article}
+\documentclass[12pt,a4paper]{article}
 
 % Some useful packages.
-\usepackage{amsmath}
-\usepackage{siunitx}
-\usepackage{graphicx}
-\usepackage{verbatim}
-\usepackage{mhchem}
-\usepackage{textcomp}
-\usepackage{setspace}
+% \usepackage{amsmath}
+% \usepackage{siunitx}
+% \usepackage{graphicx}
+% \usepackage{verbatim}
+% \usepackage{mhchem}
+% \usepackage{textcomp}
+% \usepackage{setspace}
 
 % Reduces margins substantially.
 \usepackage{geometry}
@@ -33,20 +33,76 @@
 % \usepackage[backend=biber]{biblatex}
 \addbibresource{references/references.bib} % note the .bib is required
 
-\title{Research Problem}
+\title{Investigating the effect of resolution on model skill and fidelity by use of an analogue}
 \author{Mark Muetzelfeldt - UCL Department of Geography}
 
 \date{16 January, 2015}
 
 \begin{document}
 
-\section*{Research Problem}
+\section*{Investigating the effect of resolution on model skill and fidelity by use of an analogue}
 
 % Should be around 500 words.
 % 20\ts{th} Century Reanalysis Project
 % \SI{850}{hPa}
-Predictability is itself predictable \parencite{palmer2004development}. However, some things are
-more predictable than others \parencite{delsole2005predictability}. 
+
+% Things to demonstrate:
+% * Comprehensive understanding of subject area
+% * Understanding of problems in the area
+% * Ability to construct (and defend) and argument
+% * Powers of analysis
+% * Powers of expression
+
+% Structure
+% * Outline a research problem
+% * What information is required to solve it?
+% * Suggest a line of research
+
+\subsection*{Research Problem}
+
+Since the beginning of weather and climate modelling, there has been a drive to increase the
+resolution of the models being used. This has tangible effects for weather modelling, delivering
+more skilful forecasts \cite{buizza2003benefits} and predictions that are more localised. For
+climate models, higher resolution means that smaller features, such as tropical cyclones, can be
+better represented \cite{bengtsson1995hurricane}. As resolution increases, sub-gridcell processes such as cloud formation can also
+move from being parameterised to being modelled directly. The rationale behind this is to produce
+climate models of higher fidelity, i.e. climate models that more faithfully recreate the climatology
+of the Earth.
+
+So, what are the links between resolution, weather prediction skill and climate forecast fidelity?
+Intuitively it makes sense that as resolution is increased, both the skill and fidelity should
+increase, but is this the case? One way of investigating this would be to run a series of weather
+and climate models at different resolutions, then comparing the results with observed data from the
+Earth. This would, however, require massive computing resources, and use the Earth system, which is
+difficult to monitor and varies slowly. A different, more tractable approach will be outlined below.
+
+\subsection*{Line of Research}
+
+The use of an analogue is suggested as a means of investigating the links between resolution, skill
+and fidelity. The analogue would consist of a rotating, air-filled annulus, with a heated inner
+cylinder. This would provide an easily observable system with interesting, chaotic dynamics that
+reproduce some of the features of the atmosphere, such as baroclinic instability
+\cite{castrejon2007baroclinic}. This analogue would be modelled using computer simulations at a
+number of different resolutions, and the output of the model would be compared with the observed
+behaviour of the analogue in two ways. First, the specific state of the simulation would be compared
+with the state of the analogue, providing a measure of the predictive skill of the model. Second,
+the overall statistical behaviour of the two would be compared.
+
+This experimental set up would mean that large amounts of observational data could be collected in a
+short period of time. With these data, the skill of the model could be determined, and after
+suitable analysis of the data the fidelity of the model could also be worked out. Relationships
+between the resolution of the model and its skill and fidelity could be investigated. For example,
+as the model resolution increases, does the skill increase indefinitely or asymptotically, or does
+it even decrease? Limitations of the system due to chaos should put an upper bound on its skill,
+dependent on the Lyapunov exponent of the system. Similarly, how does the model's fidelity change
+with different resolutions? One other interesting line of research would be looking at the
+predictability of the system, looking for certain states or features that persisted for longer than
+would be suggested than the Lyapunov exponent, and could also be accurately modelled. This would
+have implications for seasonal predictions and blocking meteorological.
+
+This experiment could have wide ranging outcomes, from analysis of the predictability of chaotic
+systems to informing the decisions to spend large amounts of money on more expensive super-computers
+to model the weather and climate at higher resolutions. 
 
 \printbibliography[title={References}]
 
